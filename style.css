@@ -1,0 +1,27 @@
+html, body {
+    font-family:Inter;
+    margin: 0;
+    padding: 0;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.learn {
+    font-weight: 500;
+    font-style: italic;
+}
+.heroSection p {
+    width: 600px;
+}
