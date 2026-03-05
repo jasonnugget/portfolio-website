@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my projects</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navBar">
+            <div class="navBox">
+                <a href="home.html">Home</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="experience.html">Experience</a>
+                <a href="blog.html">Blog</a>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="headerProj">what i've worked on...</h1>
+            <div class="projectsGrid">
+                <div class="projectsCard">
+                    <h1><a href="https://github.com/jasonnugget/Sense">sense</a></h1>
+                    <p class="description"> Built the backend for an open source project where we allow upgrading of budget
+                        cameras to detect and report dangerous incidents. I created the endpoints to log, create, and report
+                        dangerous objects and recorded incidents. Using a risk engine logic I helped create, it notifies users in real time
+                        alerts of possible danger/detected dangerous objects. With computer vision skills to train a YOLO model on large datasets,
+                        we are able to classify these objects.
+                    </p>
+                    <p class="stack">Python, OpenCV, FastAPI, PostgreSQL, YOLO, and Git</p>
+                    
+                </div>
+                <div class="projectsCard">
+                    <h1>this website</h1>
+                    <p class="description">Building this website using HTML, CSS, and JavaScript. Currently only have HTML and CSS used
+                        but as time passes, I will learn JavaScript and migrate over to TailwindCSS and React.
+                    </p>
+                    <p class="stack">HTML and CSS (for now)</p>
+                </div>
+                <div class="projectsCard"></div>
+            </div>
+        </div>
+    </body>
+</html>

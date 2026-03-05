@@ -4,6 +4,39 @@ html, body {
     padding: 0;
 }
 
+.navBar {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+
+.navBox {
+    width: 800px;
+    height: 26px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 450;
+}
+
+.navBox a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBox a:hover{
+    color: grey;
+}
+
+.navBox a.active {
+    color:grey;
+}
+
 .heroSection{
     display: flex;
     flex-direction: column;
@@ -24,4 +57,44 @@ html, body {
 }
 .heroSection p {
     width: 600px;
+}
+
+.headerProj {
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    column-gap: 67px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.projectsCard {
+    height: 450px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.projectsCard .description {
+    padding: 15px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.stack {
+    padding: 20px;
+}
+
+.projectsGrid a {
+    color: black;
+}
+
+.projectsGrid a:hover {
+    color:grey;
 }
